@@ -12,3 +12,4 @@ my_value(a)
 puts a
 
 # 7
+# Numbers are still immutable, this example just happens to use the same variable name in the method definition as the top level assignment
