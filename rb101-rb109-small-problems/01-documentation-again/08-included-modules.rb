@@ -6,9 +6,11 @@
 # Use irb to run the following code: 
 
 a = [5, 9, 3, 11]
-puts a.min
+puts a.min(2)
 
 # Find the documentation for the `#min` method and change the above code to print the smallest values in the `Array`. 
 
 # A solution that uses the #min method alone requires version 2.2.0 or higher of Ruby. If you have an older version of Ruby, you need a different approach.
 
+# change code on line 9 to `puts a.min(2)`
+# https://ruby-doc.org/core-2.3.0/Enumerable.html#method-i-min
